@@ -22,6 +22,38 @@
     font-style: normal; /* Specify the font style if needed */
 }
 
+@font-face {
+    font-family: 'antipasto-thin';
+    src: url("antipasto-thin.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-thin-2';
+    src: url("antipasto-thin-2.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-extralight';
+    src: url("antipasto-extralight.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-hairline';
+    src: url("antipasto-hairline.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
 .site-header {
     background-color: #4FACF7; /* Blue background */
     color: white; /* White text */
@@ -39,12 +71,13 @@
     background-size: cover; /* Ensures the image covers the whole div */
     background-position: center; /* Centers the image */
     width: 100%; /* Takes full width of the page */
-    height: 300px; /* Adjust the height as per your design */
+    height: 600px; /* Adjust the height as per your design */
     display: flex; /* For centering text vertically */
     justify-content: center; /* Center the text horizontally */
     align-items: center; /* Center the text vertically */
     color: white; /* Text color */
     text-align: center; /* Center the text */
+    font-family: "antipasto-hairline", "antipasto-hairline";
 }
 
 html, body {
