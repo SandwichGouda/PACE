@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Metropolis Bold';
+    src: url("metropolis-bold.otf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-demibold';
+    src: url("antipasto-demibold.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-medium';
+    src: url("antipasto-medium.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+.site-header {
+    background-color: #4FACF7; /* Blue background */
+    color: white; /* White text */
+    padding: 20px; /* Add some padding to make it taller */
+    text-align: center; /* Center-align the text */
+    position: fixed; /* Keep the header fixed at the top */
+    top: 0; /* Align the header at the top of the page */
+    width: 100%; /* Ensure the header spans the full width of the page */
+    z-index: 1000; /* Ensure the header stays on top */
+    font-family: "antipasto-bold", "antipasto-medium", Arial, sans-serif;
+}
+
+.gif {
+    
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the image */
+    width: 100%; /* Takes full width of the page */
+    height: 300px; /* Adjust the height as per your design */
+    display: flex; /* For centering text vertically */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    margin-top: 60px; /* Add margin to prevent content from being hidden behind the fixed header */
+    font-family: "antipasto-medium", Arial, sans-serif;
+}
+
+h1 {
+    margin: 0; /* Remove default margin on the h1 to better fit the header */
+}

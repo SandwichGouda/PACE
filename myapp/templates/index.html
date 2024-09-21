@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Local Website with Image</title>
+    <!-- Load static files -->
+    {% load static %}
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}">
+</head>
+<body>
+    <header class="site-header">
+      <h1>PACE</h1>
+    </header>
+
+    <div class="gif" style="background-image: url('/static/myapp/images/darkTP.jpg');">
+      <h2>Welcome to the Hero Section</h2>
+    </div>
+
+    <h1>PACE</h1>
+
+    <!-- Display the image -->
+    <img src="{% static 'myapp/images/TP.jpg' %}"  w-full h-full bg-cover alt="Télécom Paris" width="300">
+
+</body>
+</html>
