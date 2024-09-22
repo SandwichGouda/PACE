@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Local Website with Image</title>
+    <!-- Load static files -->
+    {% load static %}
+    <!-- Link to the CSS file -->
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}"> -->
+    
+</head>
+<body>
+    <header class="site-header">
+      <h1>PACE</h1>
+    </header>
+
+    <div class="gif" style="background-image: url('/static/myapp/images/darkTP.jpg');"> 
+      <div>
+      <br>
+      <h1 style="font-size: 1000%;">PACE</h1>
+      <br><br><br><br><br>
+      <h2 style="font-size: 200%;">Télécom Paris</h2>
+      </div>
+    </div>
+
+    <div class="text">
+      <h2>Bienvenue sur le site officiel du PACE !</h2>
+
+      <p style="font-family : antipasto-medium;">
+        PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
+        <br>
+        <br>
+        Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
+      </p>
+    </div>
+    
+    <div class="container">
+      <div class="row center">
+          <div class="col-md-6 offset-md-3">
+              
+              <form action="" method="POST">
+                  <input type="hidden" name="csrfmiddlewaretoken" value="8ASDwt4YGxy3xHRcK10X0M1k20yYiOqoAoNyRc6pellEDFnOC9FPwul6EWUqy7NC">
+                  <div class="form-group">
+                      <label for="username">Username</label>
+                      <input type="text" class="form-control" name="username" placeholder="Enter Username" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" name="password" placeholder="Password" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                  <!-- <p>Need an account? <a href="/accounts/register/">Register Here</a></p> -->
+              </form>
+          </div>
+      </div>
+  </div>
+  
+
+    <footer>
+      <p> ©PACE </p>
+    </footer>
+
+    <!-- All javascript files goes under here    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -67,7 +67,6 @@
 }
 
 .gif {
-    
     background-size: cover; /* Ensures the image covers the whole div */
     background-position: center; /* Centers the image */
     width: 100%; /* Takes full width of the page */
@@ -80,13 +79,38 @@
     font-family: "antipasto-hairline", "antipasto-hairline";
 }
 
+.text {
+    margin-left : 10%;
+    margin-top: 8%;
+    font-size:  150%;
+    font-family: "antipasto-medium", Arial, sans-serif;
+    margin-bottom: 10%
+}
+
+footer {
+    background-color: #262626;
+    text-align: center;
+    justify-content: center;
+    font-family: "antipasto-medium";
+    font-size: 100%;
+    color: white;
+    padding-top: 0%;
+    align-items: center;
+    display : flex;
+}
+
 html, body {
     margin: 0;
+    background-color: #D5D5FF;
 }
 
 body {
     margin-top: 60px; /* Add margin to prevent content from being hidden behind the fixed header */
-    font-family: "antipasto-medium", Arial, sans-serif;
+    font-family: "antipasto-thin", Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
 }
 
 h1 {
