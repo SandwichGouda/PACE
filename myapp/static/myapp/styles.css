@@ -84,7 +84,7 @@
     margin-top: 8%;
     font-size:  150%;
     font-family: "antipasto-medium", Arial, sans-serif;
-    margin-bottom: 10%
+    margin-bottom: 10% ;
 }
 
 footer {
@@ -101,12 +101,15 @@ footer {
 
 html, body {
     margin: 0;
-    background-color: #D5D5FF;
 }
 
 body {
     margin-top: 60px; /* Add margin to prevent content from being hidden behind the fixed header */
     font-family: "antipasto-thin", Arial, sans-serif;
+
+    background: radial-gradient(circle, transparent 20%, #d5d5ff 20%, #d5d5ff 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #d5d5ff 20%, #d5d5ff 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#b5b5ff 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #b5b5ff 2px, #d5d5ff 2px) -1px 0px / 32px 32px #d5d5ff;
+    background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+    background-color: #d5d5ff;
 }
 
 h1, h2, h3, h4 {
