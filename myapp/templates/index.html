@@ -24,7 +24,7 @@
     </div>
 
     <div class="text" style="font-family : 'arial';">
-      <h2>Bienvenue sur le site officiel du PACE !</h2>
+      <h2>Bienvenue sur le site officiel de PACE !</h2>
 
       <p style="font-family : 'arial';">
         PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
@@ -32,7 +32,34 @@
         <br>
         Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
       </p>
-    </div>
+    
+        <div class="buttons">
+          <button class="smooth-button">Smooth Button</button>
+
+          <script>
+              const button = document.querySelector('.smooth-button');
+
+              function updateButtonState(hue1, hue2) {
+                  button.style.setProperty('--hue-1', hue1);
+                  button.style.setProperty('--hue-2', hue2);
+              }
+
+              button.addEventListener('mouseenter', () => updateButtonState(230, 290));
+              button.addEventListener('mouseleave', () => updateButtonState(200, 260));
+              button.addEventListener('mousedown', () => updateButtonState(260, 320));
+              button.addEventListener('mouseup', () => updateButtonState(230, 290));
+
+              // Touch events for mobile devices
+              button.addEventListener('touchstart', (e) => {
+                  e.preventDefault(); // Prevent default touch behavior
+                  updateButtonState(260, 320);
+              });
+
+              button.addEventListener('touchend', () => {
+                  updateButtonState(200, 260);
+              });
+          </script>
+    </div></div>
 
     <footer>
       <p> ©PACE </p>

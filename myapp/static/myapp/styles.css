@@ -66,6 +66,8 @@
     font-family: "antipasto-thin", "antipasto-medium", Arial, sans-serif;
 }
 
+
+
 .gif {
     background-size: cover; /* Ensures the image covers the whole div */
     background-position: center; /* Centers the image */
@@ -77,21 +79,38 @@
     color: white; /* Text color */
     text-align: center; /* Center the text */
     font-family: "antipasto-hairline", "antipasto-hairline";
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.45); /* Adds a soft shadow */
 }
+
+/* USE
+background: linear-gradient(135deg, /* OBLIC !!! * /
+        hsl(var(--hue-1, 200), 100%, 60%), 
+        hsl(var(--hue-2, 260), 100%, 60%)
+    );
+*/
 
 .text {
     margin-left : 10%;
+    margin-right : 10%;
     margin-top: 8%;
     font-size:  150%;
     font-family: "antipasto-medium", Arial, sans-serif;
     margin-bottom: 10% ;
+    background-color: #d5d5ff;
+    padding-left: 4.5%;
+    padding-top: 1.5%;
+    padding-bottom: 2.5%;
+    padding-right: 0%;
+    border-radius: 15px;           /* Makes the corners rounded */
+    box-shadow: 0 8px 150px rgba(0, 0, 0, 0.35); /* Adds a soft shadow */
+    text-align: center; 
 }
 
 footer {
     background-color: #262626;
     text-align: center;
     justify-content: center;
-    font-family: "antipasto-medium";
+    font-family: Arial; /* doesn't work */
     font-size: 100%;
     color: white;
     padding-top: 0%;
@@ -118,4 +137,103 @@ h1, h2, h3, h4 {
 
 h1 {
     margin: 0; /* Remove default margin on the h1 to better fit the header */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* Divides the container into 3 equal columns * /
+    width: 80%;
+    padding: 20%                         
+}
+*/
+
+.smooth-button {
+    position: relative;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, 
+        hsl(var(--hue-1, 200), 100%, 60%), 
+        hsl(var(--hue-2, 260), 100%, 60%)
+    );
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+        0 10px 20px -10px hsla(var(--hue-1, 200), 100%, 40%, 0.5),
+        0 0 0 2px hsla(var(--hue-1, 200), 100%, 80%, 0.3);
+    overflow: hidden;
+}
+
+.smooth-button {
+    --hue-1: 200;
+    --hue-2: 260;
+    transition: --hue-1 0.3s ease, --hue-2 0.3s ease,
+                transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smooth-button:hover {
+    --hue-1: 230;
+    --hue-2: 290;
+    transform: translateY(-2px) scale(1.05);
+}
+
+.smooth-button:active {
+    --hue-1: 260;
+    --hue-2: 320;
+    transform: translateY(1px) scale(0.95);
+}
+
+.smooth-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, white, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.smooth-button:hover::after {
+    opacity: 0.15;
+}
+
+@property --hue-1 {
+    syntax: '<number>';
+    initial-value: 200;
+    inherits: false;
+}
+
+@property --hue-2 {
+    syntax: '<number>';
+    initial-value: 260;
+    inherits: false;
 }
