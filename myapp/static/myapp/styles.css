@@ -58,12 +58,12 @@
     background-color: #4FACF7; /* Blue background */
     color: white; /* White text */
     padding: 20px; /* Add some padding to make it taller */
-    text-align: center; /* Center-align the text */
+    text-align: left; /* Center-align the text */
     position: fixed; /* Keep the header fixed at the top */
     top: 0; /* Align the header at the top of the page */
     width: 100%; /* Ensure the header spans the full width of the page */
     z-index: 1000; /* Ensure the header stays on top */
-    font-family: "antipasto-bold", "antipasto-medium", Arial, sans-serif;
+    font-family: "antipasto-thin", "antipasto-medium", Arial, sans-serif;
 }
 
 .gif {
