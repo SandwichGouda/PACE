@@ -135,13 +135,14 @@ body {
 
 
 
-
+/*
 h1, h2, h3, h4 {
     font-weight: bold;
     color: #FFFFFF;
     margin: 0;
     font-size: 24px;
 }
+*/
 
 header {
     background: linear-gradient(190deg, #46e9ff, #3e2fc4);
@@ -152,29 +153,13 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #006064;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #00838f;
-}
 
 .account-btn {
-    background-color: #006064;
+    background-color: transparent;
+    background-image: url('/static/myapp/images/account_icon2.webp');   /* Use your icon as background */
+    background-size: contain;                      /* Ensure the image fits the button */
+    background-repeat: no-repeat;                  /* Prevent image from repeating */
+    background-position: center;                   
     color: white;
     border: none;
     width: 40px;
@@ -182,22 +167,13 @@ nav ul li a:hover {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-right: 3%;
+
 }
 
 .account-btn:hover {
-    background-color: #00838f;
+    background-color: rgba(50,50,50,0.2);
 }
-
-.horizontal-div {
-    background-color: #e0f7fa;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-
-
 
 h1 {
     margin: 0; /* Remove default margin on the h1 to better fit the header */
