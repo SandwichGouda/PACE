@@ -144,7 +144,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-    background: linear-gradient(190deg, #46e9ff, #9288f1);
+    background: linear-gradient(190deg, #46e9ff, #3e2fc4);
     padding: 20px;
     display: flex;
     justify-content: space-between;
