@@ -7,40 +7,34 @@
     <!-- Load static files -->
     {% load static %}
     <!-- Link to the CSS file -->
-    <!-- <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}"> -->
-    
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles_admin.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+      
 </head>
 <body>
-    <header class="site-header">
+    <header class="site-header" style="height: 2em;">
       <h1>PACE</h1>
     </header>
 
-    <div class="gif" style="background-image: url('/static/myapp/images/darkTP.jpg');"> 
-      <div>
-      <br>
-      <h1 style="font-size: 1000%;">PACE</h1>
-      <br><br><br><br><br>
-      <h2 style="font-size: 200%;">Télécom Paris</h2>
-      </div>
-    </div>
-
-    <div class="text">
-      <h2>Bienvenue sur le site officiel du PACE !</h2>
-
-      <p style="font-family : antipasto-medium;">
-        PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
-        <br>
-        <br>
-        Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
-      </p>
-    </div>
-    
     <div class="container">
       <div class="row center">
           <div class="col-md-6 offset-md-3">
-              
+              {% if messages %}
+              <div class="messages">
+                  {% for message in messages %}
+                  <div {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  {% endfor %}
+              </div>
+              {% endif %}
               <form action="" method="POST">
-                  <input type="hidden" name="csrfmiddlewaretoken" value="8ASDwt4YGxy3xHRcK10X0M1k20yYiOqoAoNyRc6pellEDFnOC9FPwul6EWUqy7NC">
+                  {% csrf_token %}
                   <div class="form-group">
                       <label for="username">Username</label>
                       <input type="text" class="form-control" name="username" placeholder="Enter Username" required>
@@ -50,7 +44,7 @@
                       <input type="password" class="form-control" name="password" placeholder="Password" required>
                   </div>
                   <button type="submit" class="btn btn-primary">Login</button>
-                  <!-- <p>Need an account? <a href="/accounts/register/">Register Here</a></p> -->
+                  <p>Si vous n'êtes pas encadrant.e de PACE, vous pouvez partir. Circulez, il n'y a rien à voir ici !</p>
               </form>
           </div>
       </div>
