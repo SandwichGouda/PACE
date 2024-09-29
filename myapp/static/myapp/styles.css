@@ -61,6 +61,7 @@
     text-align: left; /* Center-align the text */
     position: fixed; /* Keep the header fixed at the top */
     top: 0; /* Align the header at the top of the page */
+    height: 2em;
     width: 100%; /* Ensure the header spans the full width of the page */
     z-index: 1000; /* Ensure the header stays on top */
     font-family: "antipasto-thin", "antipasto-medium", Arial, sans-serif;
@@ -150,13 +151,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
 
 .account-btn {
     background-color: transparent;
-    background-image: url('/static/myapp/images/account_icon2.webp');   /* Use your icon as background */
+    background-image: url('/static/myapp/images/account_icon_white.webp');   /* Use your icon as background */
     background-size: contain;                      /* Ensure the image fits the button */
     background-repeat: no-repeat;                  /* Prevent image from repeating */
     background-position: center;                   
