@@ -13,20 +13,24 @@
 <body>
     <header class="site-header">
       <h1 style="color:white; font-size: 2em; font-family:antipasto-hairline;">PACE</h1>
-      <a href="admin" style="margin-right: 3%;">
+      <!-- <a href="admin" style="margin-right: 3%;">
         <button class="account-btn"></button>
-      </a>
+      </a> -->
     </header>
 
-    <div class="box" style="font-family : 'arial';">
-      <h2>Bienvenue sur le site officiel de PACE !</h2>
-
-      <p style="font-family : 'arial';">
-        PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
-        <br>
-        <br>
-        Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
-      </p>
+    <div class="box">
+      <a href="{% static 'myapp/thumbnails/PACE 2023 - Lamat Clement.pdf' %}">
+        <img src="" alt="Description" class="thumbnail">
+      </a>
+      <div>
+        <h2>Bienvenue sur le site officiel de PACE !</h2>
+        <p>
+          PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
+          <br>
+          <br>
+          Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
+        </p>
+      </div>
     </div>
 
     <footer>
