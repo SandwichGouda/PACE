@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACE</title>
+    <!-- Load static files -->
+    {% load static %}
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles_pace.css' %}">
+    <!-- <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <header class="site-header">
+      <h1 style="color:white; font-size: 2em; font-family:antipasto-hairline;">PACE</h1>
+      <a href="admin" style="margin-right: 3%;">
+        <button class="account-btn"></button>
+      </a>
+    </header>
+
+    <div class="box" style="font-family : 'arial';">
+      <h2>Bienvenue sur le site officiel de PACE !</h2>
+
+      <p style="font-family : 'arial';">
+        PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
+        <br>
+        <br>
+        Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
+      </p>
+    </div>
+
+    <footer>
+      <p> ©PACE </p>
+    </footer>
+
+</body>
+</html>

@@ -8,11 +8,5 @@ def index(request):
 def admin(request):
     return render(request, 'admin.html')
 
-def pace2022(request):
-    return render(request, 'pace2022.html')
-
 def pace2023(request):
-    return render(request, 'pace2023.html')
-
-def pace2024(request):
-    return render(request, 'pace2024.html')
+    return render(request, 'PACE2023.html')
