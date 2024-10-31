@@ -1,1 +1,12 @@
 for file in * ; do pdftoppm -jpeg -r 600 -f 1 -singlefile "$file" "${file::-4}"; done
+
+GPT Notes :
+
+If you’re working in development, Django automatically handles static files for you. 
+However, in production, you’ll need to configure your web server (like Nginx or Apache) 
+to serve static files directly, as Django does not do this by default for performance reasons.
+
+While you can serve files this way in development, it's typically more efficient in production 
+to serve static files (like your PDFs) directly via your web server, bypassing Django altogether. 
+If these PDFs are likely to be updated or managed by users, you may want to move them to a media 
+folder instead for easier handling.
