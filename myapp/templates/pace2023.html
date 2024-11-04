@@ -24,9 +24,9 @@
     {% load custom_filters %}
     {% for pdf in pdf_files %}
     <div class="box">
-      <!-- <a href="/pdfs/{{ pdf }}"> -->
+      <a href="/pdfs/{{ pdf }}" class="thumbnail">
         <img src="/pdfs/{{ pdf|slice:':-3' }}jpg" alt="Description" class="thumbnail">
-      <!-- </a> -->
+       </a> 
       <div style="padding-left: 3%;">
         <h2>{{ pdf|title }}
       </h2>
