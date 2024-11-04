@@ -34,6 +34,8 @@ def list_pdfs(request):
     
     # Liste des fichiers PDF dans le dossier
     pdf_files = [f for f in os.listdir(pdf_directory) if f.endswith('.pdf')]
+    from random import shuffle
+    shuffle(pdf_files)
     
     context = {
         'pdf_files': pdf_files

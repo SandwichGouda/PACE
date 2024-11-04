@@ -57,29 +57,27 @@
 .site-header {
     background-color: #4FACF7; /* Blue background */
     color: white; /* White text */
-    padding: 20px; /* Add some padding to make it taller */
-    text-align: left; /* Center-align the text */
+    
+    text-align: center; /* Center-align the text */
     position: fixed; /* Keep the header fixed at the top */
     top: 0; /* Align the header at the top of the page */
-    height: 2em;
+    height: 4em;
     width: 100%; /* Ensure the header spans the full width of the page */
     z-index: 1000; /* Ensure the header stays on top */
     font-family: "antipasto-thin", "antipasto-medium", Arial, sans-serif;
-}
-
-header {
     background: linear-gradient(190deg, #46e9ff, #3e2fc4);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    
+    
+    
     align-items: center;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
+
 .box {
     display: flex;
     align-items: flex-start; 
-    height: 40vh;
+    height: 30vh;
     margin-left : 3%;
     margin-right : 3%;
     margin-top: 3%;
