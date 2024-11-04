@@ -91,11 +91,10 @@ background: linear-gradient(135deg, /* OBLIC !!! * /
 */
 
 .thumbnail {
-    height: 100%;
-    width : auto; 
-    margin-right: 15px;
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.35); 
-    margin-right: 2.5%;
+    height: 100%;          /* Make the image's height fit the div */
+    width: auto;           /* Keep the original aspect ratio */
+    object-fit: cover;     /* Fills the div while keeping the image proportionate */
+    display: block;  
 }
 
 .box {

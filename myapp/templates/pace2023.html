@@ -6,8 +6,9 @@
     <title>PACE</title>
     <!-- Load static files -->
     {% load static %}
+
     <!-- Link to the CSS file -->
-    <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles_pace.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/styles_pace2023.css' %}">
     <!-- <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> -->
 </head>
 <body>
@@ -18,21 +19,23 @@
       </a> -->
     </header>
 
+    <br><br><br><br><br>
+
+    {% load custom_filters %}
+    {% for pdf in pdf_files %}
     <div class="box">
-      <a href="{% static 'myapp/thumbnails/PACE 2023 - Lamat Clement.pdf' %}">
-        <img src="" alt="Description" class="thumbnail">
-      </a>
-      <div>
-        <h2>Bienvenue sur le site officiel de PACE !</h2>
+      <!-- <a href="/pdfs/{{ pdf }}"> -->
+        <img src="/pdfs/{{ pdf|slice:':-3' }}jpg" alt="Description" class="thumbnail">
+      <!-- </a> -->
+      <div style="padding-left: 3%;">
+        <h2>{{ pdf|title }}
+      </h2>
         <p>
-          PACE est une unité d'enseignement donnée à Télécom Paris, <br> à l'issue de laquelle les étudiants produisent un écrit sur un sujet libre.
-          <br>
-          <br>
-          Vous pouvez parcourir l'ensemble des PACE produits par les étudiants ci-dessous.
+          {{ pdf| author }}
         </p>
       </div>
     </div>
-
+    {% endfor %}
     <footer>
       <p> ©PACE </p>
     </footer>

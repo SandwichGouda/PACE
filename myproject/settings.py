@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ee#g7^q4lp9=d_j^c@u9ah+#@+g5l8gos&58-7)8bqdb9sgg(f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1","pace.rezel.net"]
 
 
 # Application definition
@@ -138,3 +138,5 @@ import os
 # Set the MEDIA_ROOT to the folder where your PDFs are stored
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+PDF_URL = '/pdfs/'

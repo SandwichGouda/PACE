@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Metropolis Bold';
+    src: url("metropolis-bold.otf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-demibold';
+    src: url("antipasto-demibold.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-medium';
+    src: url("antipasto-medium.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-thin';
+    src: url("antipasto-thin.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-thin-2';
+    src: url("antipasto-thin-2.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-extralight';
+    src: url("antipasto-extralight.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-hairline';
+    src: url("antipasto-hairline.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+.site-header {
+    background-color: #4FACF7; /* Blue background */
+    color: white; /* White text */
+    padding: 20px; /* Add some padding to make it taller */
+    text-align: left; /* Center-align the text */
+    position: fixed; /* Keep the header fixed at the top */
+    top: 0; /* Align the header at the top of the page */
+    height: 2em;
+    width: 100%; /* Ensure the header spans the full width of the page */
+    z-index: 1000; /* Ensure the header stays on top */
+    font-family: "antipasto-thin", "antipasto-medium", Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(190deg, #46e9ff, #3e2fc4);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+    display: flex;
+    align-items: flex-start; 
+    height: 40vh;
+    margin-left : 3%;
+    margin-right : 3%;
+    margin-top: 3%;
+    font-size:  150%;
+    font-family: "antipasto-medium", Arial, sans-serif;
+    margin-bottom: 3% ;
+    background-color: #efefff;
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 2.5%;
+    border-radius: 15px;           /* Makes the corners rounded */
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.35); /* Adds a soft shadow */
+    text-align: left;  
+}
+
+.thumbnail {
+    height: 100%;          /* Makes the image's height fit the div */
+    max-height: 100%;      /* Ensures the image doesn't exceed container height */
+    width: auto;           /* Maintain aspect ratio */
+    object-fit: contain;     /* Cover the area within container bounds */
+    display: block;  
+}
+
+footer {
+    background-color: #262626;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial; /* doesn't work */
+    font-size: 100%;
+    color: white;
+    padding-top: 0%;
+    align-items: center;
+    display : flex;
+}
+
+body {
+    margin-top: 60px; /* Add margin to prevent content from being hidden behind the fixed header */
+    font-family: "antipasto-thin", Arial, sans-serif;
+
+    background: radial-gradient(circle, transparent 20%, #d5d5ff 20%, #d5d5ff 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #d5d5ff 20%, #d5d5ff 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#b5b5ff 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #b5b5ff 2px, #d5d5ff 2px) -1px 0px / 32px 32px #d5d5ff;
+    background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+    background-color: #d5d5ff;
+
+    margin: 0;
+    padding: 0;
+}
+
+/*
+h1 {
+    margin: 0; /* Remove default margin on the h1 to better fit the header 
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* Divides the container into 3 equal columns * /
+    width: 80%;
+    padding: 20%                         
+}
+*/
+
+.smooth-button {
+    position: relative;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, 
+        hsl(var(--hue-1, 200), 100%, 60%), 
+        hsl(var(--hue-2, 260), 100%, 60%)
+    );
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+        0 10px 20px -10px hsla(var(--hue-1, 200), 100%, 40%, 0.5),
+        0 0 0 2px hsla(var(--hue-1, 200), 100%, 80%, 0.3);
+    overflow: hidden;
+}
+
+.smooth-button {
+    --hue-1: 200;
+    --hue-2: 260;
+    transition: --hue-1 0.3s ease, --hue-2 0.3s ease,
+                transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smooth-button:hover {
+    --hue-1: 230;
+    --hue-2: 290;
+    transform: translateY(-2px) scale(1.05);
+}
+
+.smooth-button:active {
+    --hue-1: 260;
+    --hue-2: 320;
+    transform: translateY(1px) scale(0.95);
+}
+
+.smooth-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, white, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.smooth-button:hover::after {
+    opacity: 0.15;
+}
+
+@property --hue-1 {
+    syntax: '<number>';
+    initial-value: 200;
+    inherits: false;
+}
+
+@property --hue-2 {
+    syntax: '<number>';
+    initial-value: 260;
+    inherits: false;
+}
