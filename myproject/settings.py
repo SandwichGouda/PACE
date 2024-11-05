@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ee#g7^q4lp9=d_j^c@u9ah+#@+g5l8gos&58-7)8bqdb9sgg(f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1","pace.rezel.net"]
 
@@ -127,6 +127,7 @@ INSTALLED_APPS = [
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/mnt/c/Users/willi/Documents/_La vie/Computers/Web/Projects/PACE/Website2/staticfiles/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

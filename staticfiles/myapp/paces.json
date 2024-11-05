@@ -1,0 +1,374 @@
+{
+  "2024": [
+        {
+          "author_first_name": "William",
+          "author_last_name": "DRIOT",
+          "title": "Problèmes ouverts en géométrie",
+          "scambled_title": "pace-2024-problemes-ouverts-en-geometrie-william-driot.pdf",
+          "thumbnail": "./static/element.webp",
+        },
+        {
+            "author_first_name": "William",
+            "author_last_name": "DRIOT",
+            "title": "Problèmes ouverts en géométrie",
+            "scambled_title": "pace-2024-problemes-ouverts-en-geometrie-william-driot.pdf",
+            "thumbnail": "./static/element.webp",
+        },
+        {
+            "author_first_name": "William",
+            "author_last_name": "DRIOT",
+            "title": "Problèmes ouverts en géométrie",
+            "scambled_title": "pace-2024-problemes-ouverts-en-geometrie-william-driot.pdf",
+            "thumbnail": "./static/element.webp",
+        }
+      ]
+    },
+    {
+      "id": "assos",
+      "name": "Associations",
+      "txtrgb": "rgb(250, 180, 0)",
+      "content": [
+        {
+          "url": "https://discord.gg/Vg5wUkjeY4",
+          "image": "./static/discord.webp",
+          "name": "Discord",
+          "description": "Discord de Telecom."
+        },
+        {
+          "url": "https://bde.telecom-paris.fr/",
+          "image": "./static/bde.webp",
+          "name": "BDE",
+          "description": "Site du BDE"
+        },
+        {
+          "url": "https://rezel.net/account",
+          "image": "./static/rezel_color.webp",
+          "name": "Rezel",
+          "description": "Site de l'asso Rezel"
+        },
+        {
+          "url": "https://bds-telecom-paris.fr",
+          "image": "./static/bds.webp",
+          "name": "BDS",
+          "description": "Site du BDS"
+        },
+        {
+          "url": "https://kft.telecom-paris.fr/",
+          "image": "./static/kft.webp",
+          "name": "KFT",
+          "description": "Meilleure asso du monde frère sans aucun doute possible, on y fait des KEBABS ! En plus on a un site frr t'as déjà vu un grec où on commande en ligne toi?"
+        },
+        {
+          "url": "https://forumtelecomparis.fr/",
+          "image": "./static/forum.svg",
+          "name": "Forum",
+          "description": "Le forum, c'est tout d'abord une campagne incroyable avec tes potes ! C'est aussi surtout la préparation d'un gros évènement de rencontres entre entreprises et étudiants en recherche de stage ou d'emploi, une bonne formation professionnelle.2 en 1, n'hésite plus"
+        },
+        {
+          "url": "https://www.comete-tp.fr",
+          "image": "./static/comete.webp",
+          "name": "Comète",
+          "description": "Association d'audiovisuelle et de communication : on y assure la plaquette alpha, 6 LIVE, les forums prépa, les couvertures photos et vidéos de tous les évènements liés à la vie associative, ainsi qu'un super festival de court métrage ! C'est beaucoup, oui ; mais tout ça dans la joie et la bonne humeur !"
+        },
+        {
+          "url": "https://telecom-etude.fr/",
+          "image": "./static/je.webp",
+          "name": "Telecom Etude",
+          "description": "La Junior-Entreprise"
+        },
+        {
+          "url": "https://chat.rezel.net/",
+          "image": "./static/chat.webp",
+          "name": "Chat",
+          "description": "Le Club Chat (Conservation de l'histoire associative de Télécom) a été créé en 2019 suite à une idée d'élèves des promos 2019, 2020 et 2021. Il a pour but de regrouper les savoirs de l'ENST / Télécom."
+        },
+        {
+          "url": "https://babar.rezel.net/stats/",
+          "image": "./static/babar.webp",
+          "name": "Bar",
+          "description": "C'est le bar !"
+        },
+        {
+          "url": "https://telecom-business-finance.com/",
+          "image": "./static/tbf.webp",
+          "name": "TBF",
+          "description": "Telecom business & finance"
+        },
+        {
+          "url": "https://teletalks.fr",
+          "image": "./static/teletalks.webp",
+          "name": "Teletalks",
+          "description": "L'association de conférence de Télécom Paris"
+        },
+        {
+          "url": "https://telespoir.fr/",
+          "image": "./static/telespoir.webp",
+          "name": "Télespoir",
+          "description": "L'association humanitaire étudiante de Télécom Paris."
+        },
+        {
+          "url": "https://tsm-tp.fr/",
+          "image": "./static/tsm.webp",
+          "name": "Télécom Sound & Magic",
+          "description": "L'association étudiante de son et lumières de Télécom Paris."
+        },
+        {
+          "url": "https://lh.rezel.net/",
+          "image": "./static/lh.webp",
+          "name": "La Lettre Hebdomadaire",
+          "description": "La Lettre Hebdomadaire de Télécom Paris"
+        },
+        {
+          "url": "https://ludo.rezel.net/",
+          "image": "./static/ludo.webp",
+          "name": "La Ludotech",
+          "description": "Le club de jeux de Télécom Paris"
+        },
+        {
+          "url": "https://mad.telecom-paris.fr/",
+          "image": "./static/mad.webp",
+          "name": "MAD",
+          "description": "MAD (Make a Difference) est l'association étudiante de développement durable de Télécom Paris"
+        },
+        {
+          "url": "https://lascene.rezel.net/",
+          "image": "./static/scene.webp",
+          "name": "La Scène",
+          "description": "La Scène est l'association de musique de Télécom Paris !"
+        },
+        {
+          "url": "https://bulle.rezel.net/",
+          "image": "./static/bulle.webp",
+          "name": "Bulle",
+          "description": "Consultez les livres disponibles, likez, donnez-votre avis et recommandez des livres de la Bulle de Télécom Paris !"
+        }
+      ]
+    },
+    {
+      "id": "telecom",
+      "name": "Télécom Paris",
+      "txtrgb": "rgb(220, 75, 75)",
+      "content": [
+        {
+          "url": "https://papier.telecom-paris.fr/",
+          "image": "./static/printer.webp",
+          "name": "Impression",
+          "description": "Impression centralisée."
+        },
+        {
+          "url": "https://ecampus.paris-saclay.fr/",
+          "image": "./static/ecampus.webp",
+          "name": "Ecampus",
+          "description": "Supports de cours."
+        },
+        {
+          "url": "https://synapses.telecom-paris.fr/",
+          "image": "./static/synapses.webp",
+          "name": "Synapses",
+          "description": "Notes, emplois du temps et inscriptions."
+        },
+        {
+          "url": "https://eole.telecom-paris.fr/",
+          "image": "./static/eole.webp",
+          "name": "Eole",
+          "description": "Informations relatives a l'école."
+        },
+        {
+          "url": "https://moncompte.telecom-paris.fr/mon_compte/",
+          "image": "./static/geco.webp",
+          "name": "GeCo",
+          "description": "Gestion de votre compte étudiant."
+        },
+        {
+          "url": "https://comens.rezel.net",
+          "image": "./static/comens.webp",
+          "name": "Comens",
+          "description": "Comité de l'enseigmement élèves."
+        },
+        {
+          "url": "https://doc.telecom-paris.fr/",
+          "image": "./static/rtd.webp",
+          "name": "Docs DSI",
+          "description": "Services informatiques de Télécom Paris"
+        },
+        {
+          "url": "https://sos.telecom-paris.fr/front/helpdesk.public.php",
+          "image": "./static/glpi.webp",
+          "name": "SOS",
+          "description": "Tickets SOS de Télécom Paris"
+        },
+        {
+          "url": "https://z.imt.fr",
+          "image": "./static/zimbra.webp",
+          "name": "Zimbra",
+          "description": "Mails"
+        },
+        {
+          "url": "https://mattermost.telecom-paris.fr/",
+          "image": "./static/mattermost.webp",
+          "name": "Matter most",
+          "description": "Outils de discution et de collaboration."
+        },
+        {
+          "url": "https://gitlab.telecom-paris.fr/",
+          "image": "./static/gitlab.webp",
+          "name": "Gitlab",
+          "description": "Gitlab pour les projets de l'école."
+        },
+        {
+          "url": "https://eole.telecom-paris.fr/vos-services/logistique/preparation-devenement/reservation-de-salle-pour-evenement",
+          "image": "./static/meeting.webp",
+          "name": "Résa salles",
+          "description": "Réservation de salles"
+        },
+        {
+          "url": "https://eole.telecom-paris.fr/lecole/vie-etudiante/organiser-un-evenement-etudiant/demande-devenement-etudiant",
+          "image": "./static/beer.webp",
+          "name": "Résa events",
+          "description": "Réservation d'événements"
+        },
+        {
+          "url": "https://catalogue-bibliotheques.imt.fr/cgi-bin/koha/opac-user.pl",
+          "image": "./static/koha.webp",
+          "name": "Emprunts CRDN",
+          "description": "Gestionnaire d'emprunts au CRDN, pour renouvellement"
+        }
+      ]
+    },
+    {
+      "id": "imt",
+      "name": "IMT",
+      "txtrgb": "#00b8de",
+      "content": [
+        {
+          "url": "https://partage.imt.fr/",
+          "image": "./static/nextcloud.webp",
+          "name": "Partage",
+          "description": "Nextcloud hébergé par l'IMT."
+        },
+        {
+          "url": "https://webconf.imt.fr/",
+          "image": "./static/bb.webp",
+          "name": "Webconf",
+          "description": "Site de conférences hébergé par l'IMT."
+        }
+      ]
+    },
+    {
+      "id": "infres",
+      "name": "Département INFRES",
+      "txtrgb": "#008b8b",
+      "content": [
+        {
+          "url": "https://lames.enst.fr/",
+          "image": "./static/grafana.webp",
+          "name": "Serveurs lames",
+          "description": "Ensemble des serveurs mis a disposition par INFRES."
+        },
+        {
+          "url": "https://controller.r2.enst.fr/horizon/auth/login/?next=/horizon/",
+          "image": "./static/openstack.webp",
+          "name": "Open stack",
+          "description": "Connexion au cluster openstack."
+        },
+        {
+          "url": "https://moodle.r2.enst.fr/moodle/",
+          "image": "./static/moodle.webp",
+          "name": "Moodle",
+          "description": "Depots des supports de cours."
+        },
+        {
+          "url": "https://littlesthub.r2.enst.fr/",
+          "image": "./static/jupyter.webp",
+          "name": "Jupyter Notebook",
+          "description": "Instance Jupyter mis a disposition par INFRES."
+        },
+        {
+          "url": "https://nextcloud.r2.enst.fr/auth/",
+          "image": "./static/nextcloud.webp",
+          "name": "Nextcloud",
+          "description": "Nextcloud hébergé par INFRES."
+        },
+        {
+          "url": "https://digimedia1.r2.enst.fr/b",
+          "image": "./static/bb.webp",
+          "name": "BB Colab",
+          "description": "Site de conférences disposition par INFRES."
+        },
+        {
+          "url": "https://peertube.r2.enst.fr/",
+          "image": "./static/peertube.webp",
+          "name": "Peertube",
+          "description": "Partage de vidéos."
+        },
+        {
+          "url": "https://collab.r2.enst.fr/login",
+          "image": "./static/sharelatex.webp",
+          "name": "Share LaTeX",
+          "description": "Edition de LaTeX en ligne."
+        },
+        {
+          "url": "https://mattermost.telecom-paris.fr/infres",
+          "image": "./static/mattermost.webp",
+          "name": "Matter most",
+          "description": "Outils de discution et de collaboration."
+        },
+        {
+          "url": "https://janus.r2.enst.fr/janus/",
+          "image": "./static/janus.webp",
+          "name": "Janus",
+          "description": "Site de conférences disposition par INFRES."
+        },
+        {
+          "url": "https://services.infres.enst.fr/plaques_bureaux/plaques.html",
+          "image": "./static/plaques.webp",
+          "name": "Plaques bureaux",
+          "description": "Pour créer sa plaque de bureau."
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "name": "Autres services utiles",
+      "txtrgb": "rgb(61, 166, 57)",
+      "content": [
+        {
+          "url": "https://opensource.org/",
+          "image": "./static/oss.webp",
+          "name": "Open Source Initiative",
+          "description": "To promote and protect open source software and communities..."
+        },
+        {
+          "url": "https://www.renater.fr/fr/Services",
+          "image": "./static/renater.webp",
+          "name": "Services Renater",
+          "description": "Services de Renater"
+        },
+        {
+          "url": "https://www.overleaf.com/project",
+          "image": "./static/overleaf.webp",
+          "name": "Overleaf",
+          "description": "Edition de LaTeX en ligne."
+        },
+        {
+          "url": "https://framasoft.org/",
+          "image": "./static/framasoft.webp",
+          "name": "Framasoft",
+          "description": "Services de Framasoft"
+        },
+        {
+          "url": "https://www.wolframalpha.com/",
+          "image": "./static/wolframalpha.webp",
+          "name": "Wolfram Alpha",
+          "description": "Compute expert-level answers using Wolfram's breakthrough algorithms, knowledgebase and AI technology."
+        },
+        {
+          "url": "https://degooglisons-internet.org/fr/",
+          "image": "./static/google.webp",
+          "name": "Dégoo- glisons Internet",
+          "description": "Refusons la centralisation des services par les géants du web ! Longue vie à l'open-source et au logiciel libre !"
+        }
+      ]
+    }
+  ]
+}

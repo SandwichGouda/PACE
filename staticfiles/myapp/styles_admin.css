@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Metropolis Bold';
+    src: url("metropolis-bold.otf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-demibold';
+    src: url("antipasto-demibold.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-medium';
+    src: url("antipasto-medium.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-thin';
+    src: url("antipasto-thin.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-thin-2';
+    src: url("antipasto-thin-2.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-extralight';
+    src: url("antipasto-extralight.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+@font-face {
+    font-family: 'antipasto-hairline';
+    src: url("antipasto-hairline.ttf") format('opentype'); /* Modern Browsers */
+         
+    font-weight: normal; /* Specify the font weight if needed */
+    font-style: normal; /* Specify the font style if needed */
+}
+
+.site-header {
+    background-color: #4FACF7; /* Blue background */
+    color: white; /* White text */
+    padding: 20px; /* Add some padding to make it taller */
+    text-align: left; /* Center-align the text */
+    position: fixed; /* Keep the header fixed at the top */
+    top: 0; /* Align the header at the top of the page */
+    height: 10vh;
+    width: 100%; /* Ensure the header spans the full width of the page */
+    z-index: 1000; /* Ensure the header stays on top */
+    font-family: "antipasto-thin", "antipasto-medium", Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer {
+    background-color: #262626;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial; /* doesn't work */
+    font-size: 100%;
+    color: white;
+    padding-top: 0%;
+    align-items: center;
+    display : flex;
+}
+
+body {
+    margin-top: 60px; /* Add margin to prevent content from being hidden behind the fixed header */
+    font-family: "antipasto-thin", Arial, sans-serif;
+
+    background: radial-gradient(circle, transparent 20%, #d5d5ff 20%, #d5d5ff 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #d5d5ff 20%, #d5d5ff 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#b5b5ff 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #b5b5ff 2px, #d5d5ff 2px) -1px 0px / 32px 32px #d5d5ff;
+    background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+    background-color: #d5d5ff;
+
+    margin: 0;
+    padding: 0;
+}
