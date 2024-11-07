@@ -15,32 +15,32 @@ def admin(request):
 def pace2023(request):
     return render(request, 'PACE2023.html')
 
-def serve_pdf(request, filename):
+# def serve_pdf(request, filename):
     
-    # Construct the full file path
-    file_path = os.path.join(settings.MEDIA_ROOT, 'pdfs',filename)
+#     # Construct the full file path
+#     file_path = os.path.join(settings.MEDIA_ROOT, 'pdfs',filename)
 
-    # Check if the file exists
-    if not os.path.exists(file_path):
-        raise Http404(file_path,filename)
-        #raise Http404("File not found")
+#     # Check if the file exists
+#     if not os.path.exists(file_path):
+#         raise Http404(file_path,filename)
+#         #raise Http404("File not found")
 
-    # Return a response to display the PDF in the browser
-    return FileResponse(open(file_path, 'rb'), content_type='application/pdf')
+#     # Return a response to display the PDF in the browser
+#     return FileResponse(open(file_path, 'rb'), content_type='application/pdf')
 
-# def list_pdfs(request):
-#     # Chemin vers le dossier 'pdfs' dans le répertoire 'static'
-#     pdf_directory = os.path.join(settings.BASE_DIR, 'media', 'pdfs')
+def list_pdfs(request):
+    # Chemin vers le dossier 'pdfs' dans le répertoire 'static'
+    pdf_directory = os.path.join(settings.BASE_DIR, 'media', 'pdfs')
 
-#     # Liste des fichiers PDF dans le dossier
-#     pdf_files = [f for f in os.listdir(pdf_directory) if f.endswith('.pdf')]
-#     from random import shuffle
-#     shuffle(pdf_files)
+    # Liste des fichiers PDF dans le dossier
+    pdf_files = [f for f in os.listdir(pdf_directory) if f.endswith('.pdf')]
+    from random import shuffle
+    shuffle(pdf_files)
     
-#     context = {
-#         'pdf_files': pdf_files
-#     }
-#     return render(request, 'pace2023.html', context)
+    context = {
+        'pdf_files': pdf_files
+    }
+    return render(request, 'pace2023.html', context)
 
 # def serve_pdf(request, filename):
 #     # Define the path where the PDF files are stored
