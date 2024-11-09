@@ -39,4 +39,13 @@
   * Scripts pour convertir les 1ères pages en images (HD, faire ça bien avec un truc propre), ajouter au JSON le truc qui va bien
   * Ajouter une barre de recherche stylée
   * Tester différents browsers (différentes versions ?)
-  * 
+- Understand averything about `systemctl` (& journalctl)(& webhook ?)(cf. rezelator)
+- Understand everything about `nginx` and caddyserver
+- Serve files correctly, rename them, replace them, have something clean
+- Have a clean code, understand everything about it 
+- Understand the JavaScript
+- Understand everything about Django
+- Put all of this in a Docker ? 
+- Fix the front page being having the GIF to be too narrow for too large screens (investigate several possibilities)
+- Compress the PACEs so that there are two per line
+- Setup remote-ssh-server
