@@ -49,3 +49,6 @@
 - Fix the front page being having the GIF to be too narrow for too large screens (investigate several possibilities)
 - Compress the PACEs so that there are two per line
 - Setup remote-ssh-server
+- Change the database mode (use PostgreSQL), in particular, allow questions marks and all special characters in file names
+- Fix the fact that the button doesn't work on the mobile version
+- Have a good mobile version ? (for in a very long time)
