@@ -53,3 +53,4 @@
 - Fix the fact that the button doesn't work on the mobile version
 - Have a good mobile version ? (for in a very long time)
 - Setup GitHub Actions (or stf like that) so that it deploys the website automatically on the Virtual Machine !
+- Have the git contain only the code, not the database (as on bulle.rezel.net)
