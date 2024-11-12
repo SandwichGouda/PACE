@@ -52,3 +52,4 @@
 - Change the database mode (use PostgreSQL), in particular, allow questions marks and all special characters in file names
 - Fix the fact that the button doesn't work on the mobile version
 - Have a good mobile version ? (for in a very long time)
+- Setup GitHub Actions (or stf like that) so that it deploys the website automatically on the Virtual Machine !
