@@ -1,0 +1,8 @@
+services:
+  pace_service:
+    container_name: app_container
+    build:
+      context: app/
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000" # Equivalent to the -p/--port flag with docker (container) run
